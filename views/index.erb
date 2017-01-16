@@ -1,5 +1,13 @@
-<h1><center> "My name is <%= @name %>" </center></h1>
 
-  <div style='border: 3px dashed purple'>
-   <center><img src='http://bit.ly/1eze8aE'></center>
-  </div>"
+<h1><center>
+<% if @name %>
+  My name is <%= @name %>
+<% else %>
+  I have no name
+<% end %>
+</center></h1>
+
+
+ <div style='border: 3px dashed purple'>
+  <center><img src='http://bit.ly/1eze8aE'></center>
+ </div>
