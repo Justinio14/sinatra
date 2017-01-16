@@ -18,8 +18,15 @@ end
 get '/check' do
   "check working"
 end
+
 get '/cat' do
-  "<div>
+  "<div style='border: 3px dashed purple'>
+   <img src='http://bit.ly/1eze8aE'>
+  </div>"
+end
+
+get '/cats' do
+  "<div style='border: 3px solid purple'>
    <img src='http://bit.ly/1eze8aE'>
   </div>"
 end
